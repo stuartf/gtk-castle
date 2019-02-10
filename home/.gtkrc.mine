@@ -1,0 +1,9 @@
+include '/usr/share/themes/Clearlooks/gtk-2.0/gtkrc'
+gtk-icon-theme-name = "Tango"
+style "djv"
+{
+font_name = "DejaVu Sans 8"
+}
+widget_class "*" style "djv"
+gtk-font-name = "DejaVu Sans 8"
+gtk-recent-files-max-age = 0
